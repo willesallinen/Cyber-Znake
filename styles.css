@@ -1,0 +1,46 @@
+/* Asettaa kehon tyylit */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Asettaa pisteiden säilön tyylit */
+#score-container {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Asettaa nykyisen pistemäärän ja parhaiden pisteiden tyylit */
+#currentScore, #bestScores {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Asettaa pelin säilön tyylit */
+#game-container {
+    position: relative;
+}
+
+/* Asettaa pelialustan tyylit */
+#gameCanvas {
+    border: 5px solid blue;
+    background-color: #000;
+    box-shadow: 0 0 20px blue; /* Lisää hehkuvaikutus */
+}
+
+/* Asettaa aloitustekstin tyylit */
+#startText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    display: none;
+}
